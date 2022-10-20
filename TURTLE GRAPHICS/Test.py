@@ -1,0 +1,10 @@
+import turtle as fort
+fort.color('yellow')
+fort.pencolor('red')
+fort.begin_fill()
+fort.speed('slowest')
+fort.goto(100,200)
+fort.goto(200,100)
+fort.goto(0,0)
+fort.end_fill()
+fort.mainloop()
